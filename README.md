@@ -1,8 +1,113 @@
-# React + Vite
+Sure! Here’s a README.md file for your Tic Tac Toe project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Tic Tac Toe Game
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsive Tic Tac Toe game built with React and Vite, featuring different colors for circle and cross marks, animations for marking, a game result screen component, and a restart button.
+
+## Features
+
+- Responsive layout that adapts to different screen sizes.
+- Different colors for circle (O) and cross (X) marks.
+- Animation effects when marking a square.
+- Displays game result (win or draw) at the end of the game.
+- Restart button to reset the game.
+- Author and contact information section.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager) or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/your-username/tic-tac-toe.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd tic-tac-toe
+   ```
+
+3. Install the dependencies:
+
+   ```sh
+   npm install
+   ```
+
+   or
+
+   ```sh
+   yarn install
+   ```
+
+### Running the Application
+
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+   or
+
+   ```sh
+   yarn dev
+   ```
+
+2. Open your browser and go to `http://localhost:3000` to see the application running.
+
+## Project Structure
+
+```
+tic-tac-toe/
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/
+│   │   ├── Board.jsx
+│   │   ├── DrawScreen.jsx
+│   │   ├── GameResultScreen.jsx
+│   │   ├── RestartButton.jsx
+│   │   ├── Square.jsx
+│   │   └── AuthorInfo.jsx
+│   │
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Board.css
+│   │   ├── DrawScreen.css
+│   │   ├── GameResultScreen.css
+│   │   ├── RestartButton.css
+│   │   └── Square.css
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── README.md
+└── vite.config.js
+```
+
+## Author
+
+- **Your Name** - [your-github-profile](https://github.com/Soumik-0x)
+
+
+## Contact
+
+For any inquiries, please reach out to me at [itsmesoumiksadhu@gmail.com](mailto:itsmesoumiksadhu@gmail.com).
+
+---
+
+This README file provides a comprehensive overview of your Tic Tac Toe project, guiding users on how to get started, run the application, and understand the project structure. Make sure to replace placeholders like `your-username`, `your-email@example.com`, and `Your Name` with your actual information.

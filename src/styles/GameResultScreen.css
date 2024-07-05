@@ -1,0 +1,8 @@
+.game-result-screen {
+  margin-top: 20px;
+}
+
+.game-result-screen h2 {
+  font-size: 24px;
+  color: green;
+}

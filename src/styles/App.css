@@ -1,0 +1,67 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Optional: Background color for the app */
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(3, 1fr); /* Three equal rows */
+  gap: 10px;
+  max-width: 400px; /* Optional: Limit board size */
+  width: 100%; /* Ensures board width adjusts */
+  aspect-ratio: 1; /* Maintains aspect ratio (1:1 square) */
+  background-color: white; /* Optional: Background color for the board */
+  padding: 10px; /* Optional: Padding for board */
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; /* Adjust as needed */
+  cursor: pointer;
+  background-color: #fff; /* Optional: Background color for squares */
+  border: 1px solid #ccc; /* Optional: Border for squares */
+}
+
+.restart-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.author-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 400px; /* Optional: Limit width */
+  width: 100%; /* Ensures width adjusts */
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
+.author-info h2 {
+  margin-bottom: 10px;
+}
+
+.author-info p {
+  margin: 5px 0;
+}
+
+.author-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.author-info a:hover {
+  text-decoration: underline;
+}

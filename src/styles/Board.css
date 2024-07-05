@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  grid-template-rows: repeat(3, 1fr); /* Three equal rows */
+  gap: 5px; /* Optional: Adjust gap between squares */
+  max-width: 400px; /* Optional: Limit board size */
+  width: 90%; /* Ensures board width adjusts */
+  aspect-ratio: 1; /* Maintains aspect ratio (1:1 square) */
+  background-color: white; /* Optional: Background color for the board */
+  padding: 10px; /* Optional: Padding for board */
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; /* Adjust as needed */
+  cursor: pointer;
+  background-color: #fff; /* Optional: Background color for squares */
+  border: 1px solid #ccc; /* Optional: Border for squares */
+}

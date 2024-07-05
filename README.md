@@ -101,8 +101,8 @@ tic-tac-toe/
 
 ## Author
 
-- **Your Name** - [your-github-profile](https://github.com/Soumik-0x)
-
+- **Soumik Sadhu** - [X.com/Twitter](https://x.com/Sadhu_Soumik)
+                   - [Github](https://github.com/Soumik-0x)
 
 ## Contact
 

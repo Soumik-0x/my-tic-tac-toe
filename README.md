@@ -110,4 +110,3 @@ For any inquiries, please reach out to me at [itsmesoumiksadhu@gmail.com](mailto
 
 ---
 
-This README file provides a comprehensive overview of your Tic Tac Toe project, guiding users on how to get started, run the application, and understand the project structure. Make sure to replace placeholders like `your-username`, `your-email@example.com`, and `Your Name` with your actual information.
